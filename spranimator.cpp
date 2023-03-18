@@ -252,6 +252,9 @@ static void runControllPanel(f32 x, f32 y, f32 w, f32 h){
         if(button("Update Frame", x + w * 0.6, y + h * 0.8, w * 0.1, h * 0.08)){
             a->frames[a->currentFrame] = Vector4(s->subspriteStartPos.x, s->subspriteStartPos.y, s->displaySz.x, s->displaySz.y);
         }
+        if(button("Copy Frame", x + w * 0.4, y + h * 0.8, w * 0.1, h * 0.08)){
+            a->frames[a->totalFrames++] = a->frames[a->currentFrame];
+        }
 
         if(!s->playAnimation){
             if(button("<", x + w * 0.2, y + h * 0.90, w * 0.05, h * 0.08)){

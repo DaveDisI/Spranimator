@@ -6,135 +6,135 @@ INCLUDELIB LIBCMT
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG164049 DB	'All', 00H, '*.*', 00H, 'Text', 00H, '*.TXT', 00H, 00H
-$SG164105 DB	00H
-$SG164106 DB	00H
+$SG164052 DB	'All', 00H, '*.*', 00H, 'Text', 00H, '*.TXT', 00H, 00H
+$SG164108 DB	00H
+$SG164109 DB	00H
 	ORG $+2
-$SG164163 DB	'dll_file_copy.dll', 00H
+$SG164166 DB	'dll_file_copy.dll', 00H
 	ORG $+2
-$SG164356 DB	00H, 00H
+$SG164359 DB	00H, 00H
 	ORG $+2
-$SG164164 DB	'lib_spranimator.dll', 00H
-$SG164165 DB	'ERROR', 00H
+$SG164167 DB	'lib_spranimator.dll', 00H
+$SG164168 DB	'ERROR', 00H
 	ORG $+2
 $SG27775 DB	'%u', 00H
 	ORG $+1
-$SG164166 DB	'Could not copy dll to temp file', 00H
-$SG164167 DB	'dll_file_copy.dll', 00H
+$SG164169 DB	'Could not copy dll to temp file', 00H
+$SG164170 DB	'dll_file_copy.dll', 00H
 	ORG $+2
-$SG164169 DB	'ERROR', 00H
+$SG164172 DB	'ERROR', 00H
 	ORG $+2
 $SG27777 DB	'%u', 00H
 	ORG $+1
-$SG164170 DB	'Could not load library', 00H
+$SG164173 DB	'Could not load library', 00H
 	ORG $+1
-$SG164171 DB	'updateApplication', 00H
+$SG164174 DB	'updateApplication', 00H
 	ORG $+2
-$SG164173 DB	'ERROR', 00H
+$SG164176 DB	'ERROR', 00H
 	ORG $+2
 $SG27779 DB	'%u', 00H
 	ORG $+1
-$SG164174 DB	'Could not get address to updateGameState', 00H
+$SG164177 DB	'Could not get address to updateGameState', 00H
 	ORG $+3
 $SG27782 DB	'%u', 00H
 	ORG $+1
-$SG164214 DB	'Create Sprite 2D', 00H
+$SG164217 DB	'Create Sprite 2D', 00H
 	ORG $+3
 $SG31755 DB	'rb', 00H
 	ORG $+1
-$SG164215 DB	'Could not load bitmap', 00H
+$SG164218 DB	'Could not load bitmap', 00H
 	ORG $+2
-$SG164344 DB	'Init Render 2D', 00H
-	ORG $+1
-$SG164345 DB	'Could not get client rect', 00H
-	ORG $+2
-$SG31980 DB	'Import', 00H
-	ORG $+1
-$SG31985 DB	'OK', 00H
-	ORG $+1
 $SG164347 DB	'Init Render 2D', 00H
 	ORG $+1
-$SG164348 DB	'Could not create render target', 00H
+$SG164348 DB	'Could not get client rect', 00H
+	ORG $+2
+$SG31981 DB	'Import', 00H
+	ORG $+1
+$SG31986 DB	'OK', 00H
 	ORG $+1
 $SG164350 DB	'Init Render 2D', 00H
 	ORG $+1
-$SG164351 DB	'Could not create brush', 00H
+$SG164351 DB	'Could not create render target', 00H
 	ORG $+1
 $SG164353 DB	'Init Render 2D', 00H
 	ORG $+1
-$SG164354 DB	'Could not create Direct2D Factory', 00H
-	ORG $+2
-$SG31989 DB	'Cancel', 00H
+$SG164354 DB	'Could not create brush', 00H
 	ORG $+1
-$SG32012 DB	'<', 00H
-	ORG $+2
-$SG164357 DB	'a', 00H, 'r', 00H, 'i', 00H, 'a', 00H, 'l', 00H, 00H, 00H
-$SG32015 DB	'>', 00H
-	ORG $+2
-$SG164358 DB	'Init Render 2D', 00H
+$SG164356 DB	'Init Render 2D', 00H
 	ORG $+1
-$SG164359 DB	'Could not create Text Format', 00H
+$SG164357 DB	'Could not create Direct2D Factory', 00H
+	ORG $+2
+$SG31990 DB	'Cancel', 00H
+	ORG $+1
+$SG32013 DB	'<', 00H
+	ORG $+2
+$SG164360 DB	'a', 00H, 'r', 00H, 'i', 00H, 'a', 00H, 'l', 00H, 00H, 00H
+$SG32016 DB	'>', 00H
+	ORG $+2
+$SG164361 DB	'Init Render 2D', 00H
+	ORG $+1
+$SG164362 DB	'Could not create Text Format', 00H
 	ORG $+3
-$SG164512 DB	'winUninitializeAudioStream', 00H
+$SG164515 DB	'winUninitializeAudioStream', 00H
 	ORG $+1
-$SG32032 DB	'<', 00H
+$SG32035 DB	'<', 00H
 	ORG $+2
-$SG164513 DB	'Could not stop playing buffer', 00H
+$SG164516 DB	'Could not stop playing buffer', 00H
 	ORG $+2
-$SG164530 DB	'Init Audio Stream', 00H
-	ORG $+2
-$SG32036 DB	'>', 00H
-	ORG $+2
-$SG164531 DB	'Could not run CoInitializeEx', 00H
-	ORG $+3
 $SG164533 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32041 DB	'<', 00H
+$SG32039 DB	'>', 00H
 	ORG $+2
-$SG164534 DB	'Could not initialize DirectSound', 00H
+$SG164534 DB	'Could not run CoInitializeEx', 00H
 	ORG $+3
-$SG32023 DB	'Delay', 00H
-	ORG $+2
-$SG32044 DB	'>', 00H
-	ORG $+2
 $SG164536 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32047 DB	'<', 00H
+$SG32044 DB	'<', 00H
 	ORG $+2
-$SG164537 DB	'Could not set DirectSound Cooperation Level', 00H
-$SG32050 DB	'>', 00H
+$SG164537 DB	'Could not initialize DirectSound', 00H
+	ORG $+3
+$SG32024 DB	'Delay', 00H
+	ORG $+2
+$SG32047 DB	'>', 00H
 	ORG $+2
 $SG164539 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32053 DB	'<', 00H
+$SG32050 DB	'<', 00H
 	ORG $+2
-$SG164540 DB	'Could not create Sound Buffer', 00H
+$SG164540 DB	'Could not set DirectSound Cooperation Level', 00H
+$SG32053 DB	'>', 00H
 	ORG $+2
 $SG164542 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32056 DB	'>', 00H
+$SG32056 DB	'<', 00H
 	ORG $+2
-$SG164543 DB	'Could not set Buffer Format', 00H
-$SG32059 DB	'<', 00H
+$SG164543 DB	'Could not create Sound Buffer', 00H
 	ORG $+2
 $SG164545 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32062 DB	'>', 00H
+$SG32059 DB	'>', 00H
 	ORG $+2
-$SG164546 DB	'Could not create Sound Buffer', 00H
+$SG164546 DB	'Could not set Buffer Format', 00H
+$SG32062 DB	'<', 00H
 	ORG $+2
-$SG164638 DB	'Initialize Window', 00H
+$SG164548 DB	'Init Audio Stream', 00H
 	ORG $+2
-$SG32065 DB	'bx: %i', 00H
+$SG32065 DB	'>', 00H
+	ORG $+2
+$SG164549 DB	'Could not create Sound Buffer', 00H
+	ORG $+2
+$SG164641 DB	'Initialize Window', 00H
+	ORG $+2
+$SG32068 DB	'bx: %i', 00H
 	ORG $+5
-$SG164639 DB	'Could not Create window', 00H
-$SG164659 DB	'Initalize OS', 00H
+$SG164642 DB	'Could not Create window', 00H
+$SG164662 DB	'Initalize OS', 00H
 	ORG $+3
-$SG164660 DB	'Could not allocate application memory', 00H
+$SG164663 DB	'Could not allocate application memory', 00H
 	ORG $+2
-$SG164679 DB	'Spranimator', 00H
+$SG164682 DB	'Spranimator', 00H
 	ORG $+4
-$SG164680 DB	'lib_spranimator.dll', 00H
+$SG164683 DB	'lib_spranimator.dll', 00H
 $SG27718 DB	'%.2f', 00H
 	ORG $+3
 $SG27720 DB	'%.2f', 00H
@@ -172,7 +172,7 @@ $SG27725 DB	'%.2f', 00H
 	DD	05H
 	DD	05H
 	DD	00H
-$SG32022 DB	'Play', 00H
+$SG32023 DB	'Play', 00H
 	ORG $+7
 ?LENGTH_ADD_AMOUNT@@3QBIB DD 03H			; LENGTH_ADD_AMOUNT
 	DD	04H
@@ -203,7 +203,7 @@ $SG32022 DB	'Play', 00H
 	DD	0c3H
 	DD	0e3H
 	DD	0102H
-$SG32066 DB	'by: %i', 00H
+$SG32069 DB	'by: %i', 00H
 	ORG $+5
 ?DISTANCE_EXTRA_BITS@@3QBIB DD 00H			; DISTANCE_EXTRA_BITS
 	DD	00H
@@ -271,34 +271,36 @@ $SG31768 DB	'processing uncompressed block', 0aH, 00H
 	ORG $+1
 $SG31795 DB	'An error has occured. Unsupported btype: %i', 0aH, '.', 00H
 	ORG $+2
-$SG31986 DB	'.anipack', 00H
+$SG31987 DB	'.anipack', 00H
 	ORG $+7
-$SG31987 DB	'C:/Users/Dave/Desktop/%s%s', 00H
+$SG31988 DB	'C:/Users/Dave/Desktop/%s%s', 00H
 	ORG $+5
-$SG31991 DB	'Load Image', 00H
+$SG31992 DB	'Load Image', 00H
 	ORG $+5
-$SG31998 DB	'Update Image', 00H
+$SG31999 DB	'Update Image', 00H
 	ORG $+3
-$SG32004 DB	'Save as Frame', 00H
+$SG32005 DB	'Save as Frame', 00H
 	ORG $+2
-$SG32007 DB	'New Animation', 00H
+$SG32008 DB	'New Animation', 00H
 	ORG $+2
-$SG32009 DB	'Delete Animation', 00H
+$SG32010 DB	'Delete Animation', 00H
 	ORG $+7
-$SG32018 DB	'Animation %i of %i', 00H
+$SG32019 DB	'Animation %i of %i', 00H
 	ORG $+5
-$SG32020 DB	'Export Animations', 00H
+$SG32021 DB	'Export Animations', 00H
 	ORG $+6
-$SG32025 DB	'Delete Frame', 00H
+$SG32026 DB	'Delete Frame', 00H
 	ORG $+3
-$SG32029 DB	'Update Frame', 00H
+$SG32030 DB	'Update Frame', 00H
 	ORG $+3
-$SG32039 DB	'Frame %i of %i', 00H
+$SG32032 DB	'Copy Frame', 00H
+	ORG $+5
+$SG32042 DB	'Frame %i of %i', 00H
 	ORG $+1
-$SG32064 DB	'x: %i     y: %i', 00H
-$SG32067 DB	'bw: %i', 00H
+$SG32067 DB	'x: %i     y: %i', 00H
+$SG32070 DB	'bw: %i', 00H
 	ORG $+1
-$SG32068 DB	'bh: %i', 00H
+$SG32071 DB	'bh: %i', 00H
 CONST	ENDS
 PUBLIC	??0Vector2@@QEAA@M@Z				; Vector2::Vector2
 PUBLIC	??0Vector2@@QEAA@MM@Z				; Vector2::Vector2
@@ -633,7 +635,7 @@ $pdata$??4Animation@@QEAAAEAU0@AEBU0@@Z DD imagerel $LN6
 pdata	ENDS
 pdata	SEGMENT
 $pdata$?runControllPanel@@YAXMMMM@Z DD imagerel ?runControllPanel@@YAXMMMM@Z
-	DD	imagerel ?runControllPanel@@YAXMMMM@Z+10191
+	DD	imagerel ?runControllPanel@@YAXMMMM@Z+10462
 	DD	imagerel $unwind$?runControllPanel@@YAXMMMM@Z
 $pdata$?runAnimationPanel@@YAXMMMM@Z DD imagerel ?runAnimationPanel@@YAXMMMM@Z
 	DD	imagerel ?runAnimationPanel@@YAXMMMM@Z+964
@@ -1492,7 +1494,7 @@ _volmd	DD	0ffffffffH
 _volmd	DD	0ffffffffH
 	DDSymXIndex: 	FLAT:?runControllPanel@@YAXMMMM@Z
 	DD	029H
-	DD	027b7H
+	DD	028c6H
 _volmd	DD	0ffffffffH
 	DDSymXIndex: 	FLAT:?uncompressPNG@@YAPEAMPEBDPEAI111@Z
 	DD	027H
@@ -1619,9 +1621,9 @@ $unwind$?uncompressPNG@@YAPEAMPEBDPEAI111@Z DD 042f19H
 	DD	imagerel __GSHandlerCheck
 	DD	0eb0H
 $unwind$?runControllPanel@@YAXMMMM@Z DD 023119H
-	DD	03d011fH
+	DD	03f011fH
 	DD	imagerel __GSHandlerCheck
-	DD	01d0H
+	DD	01e0H
 $unwind$?runAnimationPanel@@YAXMMMM@Z DD 043319H
 	DD	0130121H
 	DD	06019701aH
@@ -1785,8 +1787,8 @@ tv67 = 48
 	jne	SHORT $LN6@winInitial
 ; Line 753
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164659
-	lea	rdx, OFFSET FLAT:$SG164660
+	lea	r8, OFFSET FLAT:$SG164662
+	lea	rdx, OFFSET FLAT:$SG164663
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 754
@@ -2547,8 +2549,8 @@ title$ = 272
 	jne	SHORT $LN2@winInitial
 ; Line 736
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164638
-	lea	rdx, OFFSET FLAT:$SG164639
+	lea	r8, OFFSET FLAT:$SG164641
+	lea	rdx, OFFSET FLAT:$SG164642
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 737
@@ -3109,8 +3111,8 @@ bufferAdvanceInSeconds$ = 184
 	jge	SHORT $LN2@winInitial
 ; Line 552
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164530
-	lea	rdx, OFFSET FLAT:$SG164531
+	lea	r8, OFFSET FLAT:$SG164533
+	lea	rdx, OFFSET FLAT:$SG164534
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 553
@@ -3130,8 +3132,8 @@ $LN2@winInitial:
 	jge	SHORT $LN3@winInitial
 ; Line 557
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164533
-	lea	rdx, OFFSET FLAT:$SG164534
+	lea	r8, OFFSET FLAT:$SG164536
+	lea	rdx, OFFSET FLAT:$SG164537
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 558
@@ -3154,8 +3156,8 @@ $LN3@winInitial:
 	jge	SHORT $LN4@winInitial
 ; Line 562
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164536
-	lea	rdx, OFFSET FLAT:$SG164537
+	lea	r8, OFFSET FLAT:$SG164539
+	lea	rdx, OFFSET FLAT:$SG164540
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 563
@@ -3195,8 +3197,8 @@ $LN4@winInitial:
 	jge	SHORT $LN5@winInitial
 ; Line 570
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164539
-	lea	rdx, OFFSET FLAT:$SG164540
+	lea	r8, OFFSET FLAT:$SG164542
+	lea	rdx, OFFSET FLAT:$SG164543
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 571
@@ -3254,8 +3256,8 @@ $LN5@winInitial:
 	jge	SHORT $LN6@winInitial
 ; Line 584
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164542
-	lea	rdx, OFFSET FLAT:$SG164543
+	lea	r8, OFFSET FLAT:$SG164545
+	lea	rdx, OFFSET FLAT:$SG164546
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 585
@@ -3300,8 +3302,8 @@ $LN6@winInitial:
 	jge	SHORT $LN7@winInitial
 ; Line 593
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164545
-	lea	rdx, OFFSET FLAT:$SG164546
+	lea	r8, OFFSET FLAT:$SG164548
+	lea	rdx, OFFSET FLAT:$SG164549
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 594
@@ -3343,8 +3345,8 @@ _TEXT	SEGMENT
 	jge	SHORT $LN2@winUniniti
 ; Line 535
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164512
-	lea	rdx, OFFSET FLAT:$SG164513
+	lea	r8, OFFSET FLAT:$SG164515
+	lea	rdx, OFFSET FLAT:$SG164516
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 536
@@ -3758,8 +3760,8 @@ __$ArrayPad$ = 296
 	jne	SHORT $LN2@winInitial
 ; Line 340
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164344
-	lea	rdx, OFFSET FLAT:$SG164345
+	lea	r8, OFFSET FLAT:$SG164347
+	lea	rdx, OFFSET FLAT:$SG164348
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 341
@@ -3828,8 +3830,8 @@ $LN2@winInitial:
 	jge	SHORT $LN3@winInitial
 ; Line 348
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164347
-	lea	rdx, OFFSET FLAT:$SG164348
+	lea	r8, OFFSET FLAT:$SG164350
+	lea	rdx, OFFSET FLAT:$SG164351
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 349
@@ -3856,8 +3858,8 @@ $LN3@winInitial:
 	jge	SHORT $LN4@winInitial
 ; Line 353
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164350
-	lea	rdx, OFFSET FLAT:$SG164351
+	lea	r8, OFFSET FLAT:$SG164353
+	lea	rdx, OFFSET FLAT:$SG164354
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 354
@@ -3877,8 +3879,8 @@ $LN4@winInitial:
 	jge	SHORT $LN5@winInitial
 ; Line 359
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164353
-	lea	rdx, OFFSET FLAT:$SG164354
+	lea	r8, OFFSET FLAT:$SG164356
+	lea	rdx, OFFSET FLAT:$SG164357
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 360
@@ -3898,7 +3900,7 @@ $LN5@winInitial:
 	mov	rcx, QWORD PTR [rcx]
 	mov	QWORD PTR tv212[rsp], rcx
 	mov	QWORD PTR [rsp+64], rax
-	lea	rax, OFFSET FLAT:$SG164356
+	lea	rax, OFFSET FLAT:$SG164359
 	mov	QWORD PTR [rsp+56], rax
 	mov	rax, QWORD PTR ?win32Interface@@3PEAUWin32Interface@@EA
 	movss	xmm0, DWORD PTR [rax+84]
@@ -3907,7 +3909,7 @@ $LN5@winInitial:
 	mov	DWORD PTR [rsp+32], 0
 	mov	r9d, 400				; 00000190H
 	xor	r8d, r8d
-	lea	rdx, OFFSET FLAT:$SG164357
+	lea	rdx, OFFSET FLAT:$SG164360
 	mov	rax, QWORD PTR tv192[rsp]
 	mov	rcx, rax
 	mov	rax, QWORD PTR tv212[rsp]
@@ -3916,8 +3918,8 @@ $LN5@winInitial:
 	jge	SHORT $LN6@winInitial
 ; Line 370
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164358
-	lea	rdx, OFFSET FLAT:$SG164359
+	lea	r8, OFFSET FLAT:$SG164361
+	lea	rdx, OFFSET FLAT:$SG164362
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 371
@@ -4895,8 +4897,8 @@ data$ = 272
 	je	SHORT $LN2@winCreateS
 ; Line 213
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164214
-	lea	rdx, OFFSET FLAT:$SG164215
+	lea	r8, OFFSET FLAT:$SG164217
+	lea	rdx, OFFSET FLAT:$SG164218
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 214
@@ -5089,22 +5091,22 @@ $LN2@winReloadA:
 	call	QWORD PTR __imp_Sleep
 ; Line 179
 	xor	r8d, r8d
-	lea	rdx, OFFSET FLAT:$SG164163
-	lea	rcx, OFFSET FLAT:$SG164164
+	lea	rdx, OFFSET FLAT:$SG164166
+	lea	rcx, OFFSET FLAT:$SG164167
 	call	QWORD PTR __imp_CopyFileA
 	test	eax, eax
 	jne	SHORT $LN3@winReloadA
 ; Line 180
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164165
-	lea	rdx, OFFSET FLAT:$SG164166
+	lea	r8, OFFSET FLAT:$SG164168
+	lea	rdx, OFFSET FLAT:$SG164169
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 181
 	jmp	$LN1@winReloadA
 $LN3@winReloadA:
 ; Line 183
-	lea	rcx, OFFSET FLAT:$SG164167
+	lea	rcx, OFFSET FLAT:$SG164170
 	call	QWORD PTR __imp_LoadLibraryA
 	mov	rcx, QWORD PTR ?win32Interface@@3PEAUWin32Interface@@EA
 	mov	QWORD PTR [rcx+8], rax
@@ -5114,15 +5116,15 @@ $LN3@winReloadA:
 	jne	SHORT $LN4@winReloadA
 ; Line 185
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164169
-	lea	rdx, OFFSET FLAT:$SG164170
+	lea	r8, OFFSET FLAT:$SG164172
+	lea	rdx, OFFSET FLAT:$SG164173
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 ; Line 186
 	jmp	SHORT $LN1@winReloadA
 $LN4@winReloadA:
 ; Line 189
-	lea	rdx, OFFSET FLAT:$SG164171
+	lea	rdx, OFFSET FLAT:$SG164174
 	mov	rax, QWORD PTR ?win32Interface@@3PEAUWin32Interface@@EA
 	mov	rcx, QWORD PTR [rax+8]
 	call	QWORD PTR __imp_GetProcAddress
@@ -5134,8 +5136,8 @@ $LN4@winReloadA:
 	jne	SHORT $LN5@winReloadA
 ; Line 191
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164173
-	lea	rdx, OFFSET FLAT:$SG164174
+	lea	r8, OFFSET FLAT:$SG164176
+	lea	rdx, OFFSET FLAT:$SG164177
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 $LN5@winReloadA:
@@ -5288,8 +5290,8 @@ buffer$ = 104
 	jne	SHORT $LN3@winReadFil
 ; Line 144
 	xor	r9d, r9d
-	lea	r8, OFFSET FLAT:$SG164105
-	lea	rdx, OFFSET FLAT:$SG164106
+	lea	r8, OFFSET FLAT:$SG164108
+	lea	rdx, OFFSET FLAT:$SG164109
 	xor	ecx, ecx
 	call	QWORD PTR __imp_MessageBoxA
 $LN3@winReadFil:
@@ -5606,7 +5608,7 @@ fileBuffer$ = 224
 ; Line 82
 	mov	DWORD PTR ofn$[rsp+44], 1
 ; Line 83
-	lea	rax, OFFSET FLAT:$SG164049
+	lea	rax, OFFSET FLAT:$SG164052
 	mov	QWORD PTR ofn$[rsp+24], rax
 ; Line 84
 	lea	rcx, QWORD PTR ofn$[rsp]
@@ -7016,7 +7018,7 @@ $LN7:
 ; Line 916
 	call	?winInitializeOS@@YAXXZ			; winInitializeOS
 ; Line 917
-	lea	r8, OFFSET FLAT:$SG164679
+	lea	r8, OFFSET FLAT:$SG164682
 	mov	edx, 900				; 00000384H
 	mov	ecx, 1600				; 00000640H
 	call	?winInitializeWindow@@YAXIIPEAD@Z	; winInitializeWindow
@@ -7026,7 +7028,7 @@ $LN7:
 	mov	rcx, QWORD PTR ?win32Application@@3PEAUSpranimator@@EA
 	call	?initializeApplication@@YAXPEAUSpranimator@@@Z ; initializeApplication
 ; Line 925
-	lea	rcx, OFFSET FLAT:$SG164680
+	lea	rcx, OFFSET FLAT:$SG164683
 	call	?winGetFileWriteTime@@YA?AU_FILETIME@@PEAD@Z ; winGetFileWriteTime
 	mov	QWORD PTR $T1[rsp], rax
 	mov	rax, QWORD PTR $T1[rsp]
@@ -7118,40 +7120,40 @@ tv166 = 36
 sp$ = 64
 updateApplication PROC
 ; File D:\code\sprite_animation_maker\spranimator.cpp
-; Line 492
+; Line 495
 $LN3:
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 56					; 00000038H
-; Line 493
+; Line 496
 	mov	rax, QWORD PTR sp$[rsp]
 	mov	QWORD PTR ?s@@3PEAUSpranimator@@EA, rax
-; Line 494
+; Line 497
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rax, QWORD PTR [rax]
 	mov	QWORD PTR ?os@@3PEAUOSInterface@@EA, rax
-; Line 496
+; Line 499
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1336]
-; Line 497
+; Line 500
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rax, 8
 	mov	rcx, rax
 	call	?initializeGUI@@YAXPEAUGUI@@@Z		; initializeGUI
-; Line 499
+; Line 502
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1280]
-; Line 501
+; Line 504
 	movss	xmm3, DWORD PTR __real@3f800000
 	movss	xmm2, DWORD PTR __real@3f19999a
 	movss	xmm1, DWORD PTR __real@3f0ccccd
 	movss	xmm0, DWORD PTR __real@3f000000
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 502
+; Line 505
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movss	xmm3, DWORD PTR [rax+1192]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
@@ -7160,7 +7162,7 @@ $LN3:
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1296]
-; Line 504
+; Line 507
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cvtss2sd xmm0, DWORD PTR [rax+1192]
 	movsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7178,7 +7180,7 @@ $LN3:
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	call	?runControllPanel@@YAXMMMM@Z		; runControllPanel
-; Line 505
+; Line 508
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movss	xmm0, DWORD PTR __real@3f800000
 	mulss	xmm0, DWORD PTR [rax+1192]
@@ -7200,7 +7202,7 @@ $LN3:
 	xorps	xmm1, xmm1
 	movss	xmm0, DWORD PTR tv148[rsp]
 	call	?runImageMapPanel@@YAXMMMM@Z		; runImageMapPanel
-; Line 506
+; Line 509
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cvtss2sd xmm0, DWORD PTR [rax+1192]
 	movsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7226,12 +7228,12 @@ $LN3:
 	movaps	xmm1, xmm0
 	xorps	xmm0, xmm0
 	call	?runAnimationPanel@@YAXMMMM@Z		; runAnimationPanel
-; Line 508
+; Line 511
 	call	?finalizeGUI@@YAXXZ			; finalizeGUI
-; Line 509
+; Line 512
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1344]
-; Line 510
+; Line 513
 	add	rsp, 56					; 00000038H
 	ret	0
 updateApplication ENDP
@@ -7241,31 +7243,31 @@ _TEXT	SEGMENT
 sp$ = 8
 ?initializeApplication@@YAXPEAUSpranimator@@@Z PROC	; initializeApplication
 ; File D:\code\sprite_animation_maker\spranimator.cpp
-; Line 483
+; Line 486
 	mov	QWORD PTR [rsp+8], rcx
-; Line 484
+; Line 487
 	mov	rax, QWORD PTR sp$[rsp]
 	mov	QWORD PTR ?s@@3PEAUSpranimator@@EA, rax
-; Line 485
+; Line 488
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rax, QWORD PTR [rax]
 	mov	QWORD PTR ?os@@3PEAUOSInterface@@EA, rax
-; Line 487
+; Line 490
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR __real@3f800000
 	movss	DWORD PTR [rax+1090601640], xmm0
-; Line 488
+; Line 491
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR __real@3f800000
 	movss	DWORD PTR [rax+1090601644], xmm0
-; Line 489
+; Line 492
 	mov	eax, 16400				; 00004010H
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	lea	rax, QWORD PTR [rcx+rax+65584]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	QWORD PTR [rcx+16859184], rax
-; Line 490
+; Line 493
 	ret	0
 ?initializeApplication@@YAXPEAUSpranimator@@@Z ENDP	; initializeApplication
 _TEXT	ENDS
@@ -7310,7 +7312,7 @@ w$ = 272
 h$ = 280
 ?runImageMapPanel@@YAXMMMM@Z PROC			; runImageMapPanel
 ; File D:\code\sprite_animation_maker\spranimator.cpp
-; Line 391
+; Line 394
 	movss	DWORD PTR [rsp+32], xmm3
 	movss	DWORD PTR [rsp+24], xmm2
 	movss	DWORD PTR [rsp+16], xmm1
@@ -7319,45 +7321,45 @@ h$ = 280
 	mov	rax, QWORD PTR __security_cookie
 	xor	rax, rsp
 	mov	QWORD PTR __$ArrayPad$[rsp], rax
-; Line 392
+; Line 395
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 393
+; Line 396
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3f847ae147ae147b
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1352]
-; Line 394
+; Line 397
 	movss	xmm3, DWORD PTR h$[rsp]
 	movss	xmm2, DWORD PTR w$[rsp]
 	movss	xmm1, DWORD PTR y$[rsp]
 	movss	xmm0, DWORD PTR x$[rsp]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1288]
-; Line 396
+; Line 399
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cmp	QWORD PTR [rax+1090601576], 0
 	je	$LN2@runImageMa
-; Line 397
+; Line 400
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601544]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mulss	xmm0, DWORD PTR [rax+1090601640]
 	movss	DWORD PTR bmw$10[rsp], xmm0
-; Line 398
+; Line 401
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601548]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mulss	xmm0, DWORD PTR [rax+1090601640]
 	movss	DWORD PTR bmh$9[rsp], xmm0
-; Line 399
+; Line 402
 	cvtss2sd xmm0, DWORD PTR x$[rsp]
 	cvtss2sd xmm1, DWORD PTR w$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7370,7 +7372,7 @@ h$ = 280
 	addsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR bmx$1[rsp], xmm0
-; Line 400
+; Line 403
 	cvtss2sd xmm0, DWORD PTR y$[rsp]
 	cvtss2sd xmm1, DWORD PTR h$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7383,7 +7385,7 @@ h$ = 280
 	addsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR bmy$2[rsp], xmm0
-; Line 402
+; Line 405
 	movss	xmm0, DWORD PTR x$[rsp]
 	addss	xmm0, DWORD PTR w$[rsp]
 	movaps	xmm2, xmm0
@@ -7391,7 +7393,7 @@ h$ = 280
 	movss	xmm0, DWORD PTR bmx$1[rsp]
 	call	?clamp@@YAMMMM@Z			; clamp
 	movss	DWORD PTR ix$16[rsp], xmm0
-; Line 403
+; Line 406
 	movss	xmm0, DWORD PTR y$[rsp]
 	addss	xmm0, DWORD PTR h$[rsp]
 	movaps	xmm2, xmm0
@@ -7399,7 +7401,7 @@ h$ = 280
 	movss	xmm0, DWORD PTR bmy$2[rsp]
 	call	?clamp@@YAMMMM@Z			; clamp
 	movss	DWORD PTR iy$15[rsp], xmm0
-; Line 404
+; Line 407
 	movss	xmm0, DWORD PTR x$[rsp]
 	subss	xmm0, DWORD PTR bmx$1[rsp]
 	xorps	xmm1, xmm1
@@ -7408,7 +7410,7 @@ h$ = 280
 	subss	xmm1, xmm0
 	movaps	xmm0, xmm1
 	movss	DWORD PTR iw$14[rsp], xmm0
-; Line 405
+; Line 408
 	movss	xmm0, DWORD PTR y$[rsp]
 	subss	xmm0, DWORD PTR bmy$2[rsp]
 	xorps	xmm1, xmm1
@@ -7417,7 +7419,7 @@ h$ = 280
 	subss	xmm1, xmm0
 	movaps	xmm0, xmm1
 	movss	DWORD PTR ih$13[rsp], xmm0
-; Line 407
+; Line 410
 	movss	xmm0, DWORD PTR x$[rsp]
 	subss	xmm0, DWORD PTR bmx$1[rsp]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
@@ -7426,7 +7428,7 @@ h$ = 280
 	call	?max@@YAMMM@Z				; max
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601552], xmm0
-; Line 408
+; Line 411
 	movss	xmm0, DWORD PTR y$[rsp]
 	subss	xmm0, DWORD PTR bmy$2[rsp]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
@@ -7435,7 +7437,7 @@ h$ = 280
 	call	?max@@YAMMM@Z				; max
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601556], xmm0
-; Line 409
+; Line 412
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601544]
 	cvtsi2ss xmm0, rax
@@ -7451,7 +7453,7 @@ h$ = 280
 	call	?clamp@@YAMMMM@Z			; clamp
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601560], xmm0
-; Line 410
+; Line 413
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601548]
 	cvtsi2ss xmm0, rax
@@ -7467,7 +7469,7 @@ h$ = 280
 	call	?clamp@@YAMMMM@Z			; clamp
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601564], xmm0
-; Line 412
+; Line 415
 	movss	xmm0, DWORD PTR h$[rsp]
 	movss	DWORD PTR [rsp+32], xmm0
 	movss	xmm3, DWORD PTR w$[rsp]
@@ -7479,14 +7481,14 @@ h$ = 280
 	movzx	eax, al
 	test	eax, eax
 	je	$LN3@runImageMa
-; Line 413
+; Line 416
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movzx	eax, BYTE PTR [rax+1667]
 	mov	rcx, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movzx	eax, BYTE PTR [rcx+rax+1152]
 	test	eax, eax
 	je	SHORT $LN4@runImageMa
-; Line 414
+; Line 417
 	mov	rax, QWORD PTR ?gui@@3PEAUGUI@@EA
 	mov	r8, QWORD PTR [rax+65552]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
@@ -7498,11 +7500,11 @@ h$ = 280
 	mov	rdx, QWORD PTR [rax]
 	call	??YVector2@@QEAAXT0@@Z			; Vector2::operator+=
 $LN4@runImageMa:
-; Line 417
+; Line 420
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cmp	DWORD PTR [rax+1204], 0
 	je	$LN5@runImageMa
-; Line 418
+; Line 421
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cvtsi2sd xmm0, DWORD PTR [rax+1204]
 	mulsd	xmm0, QWORD PTR __real@3fb999999999999a
@@ -7513,21 +7515,21 @@ $LN4@runImageMa:
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601640], xmm0
-; Line 419
+; Line 422
 	movss	xmm1, DWORD PTR __real@3c23d70a
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601640]
 	call	?max@@YAMMM@Z				; max
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601640], xmm0
-; Line 421
+; Line 424
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601544]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mulss	xmm0, DWORD PTR [rax+1090601640]
 	movss	DWORD PTR nw$17[rsp], xmm0
-; Line 422
+; Line 425
 	cvtss2sd xmm0, DWORD PTR x$[rsp]
 	cvtss2sd xmm1, DWORD PTR w$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7540,14 +7542,14 @@ $LN4@runImageMa:
 	addsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR nx$11[rsp], xmm0
-; Line 423
+; Line 426
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601548]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mulss	xmm0, DWORD PTR [rax+1090601640]
 	movss	DWORD PTR nh$18[rsp], xmm0
-; Line 424
+; Line 427
 	cvtss2sd xmm0, DWORD PTR y$[rsp]
 	cvtss2sd xmm1, DWORD PTR h$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -7560,7 +7562,7 @@ $LN4@runImageMa:
 	addsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR ny$12[rsp], xmm0
-; Line 426
+; Line 429
 	movss	xmm0, DWORD PTR bmx$1[rsp]
 	addss	xmm0, DWORD PTR bmw$10[rsp]
 	movss	xmm1, DWORD PTR __real@3f800000
@@ -7572,13 +7574,13 @@ $LN4@runImageMa:
 	movss	xmm0, DWORD PTR [rax+1172]
 	call	?map@@YAMMMMMM@Z			; map
 	movss	DWORD PTR pctx$3[rsp], xmm0
-; Line 427
+; Line 430
 	movss	xmm2, DWORD PTR __real@3f800000
 	xorps	xmm1, xmm1
 	movss	xmm0, DWORD PTR pctx$3[rsp]
 	call	?clamp@@YAMMMM@Z			; clamp
 	movss	DWORD PTR pctx$3[rsp], xmm0
-; Line 428
+; Line 431
 	movss	xmm0, DWORD PTR bmx$1[rsp]
 	subss	xmm0, DWORD PTR nx$11[rsp]
 	xorps	xmm0, DWORD PTR __xmm@80000000800000008000000080000000
@@ -7591,7 +7593,7 @@ $LN4@runImageMa:
 	movss	xmm0, DWORD PTR pctx$3[rsp]
 	call	?map@@YAMMMMMM@Z			; map
 	movss	DWORD PTR pctx$3[rsp], xmm0
-; Line 429
+; Line 432
 	movss	xmm0, DWORD PTR bmy$2[rsp]
 	addss	xmm0, DWORD PTR bmh$9[rsp]
 	movss	xmm1, DWORD PTR __real@3f800000
@@ -7603,13 +7605,13 @@ $LN4@runImageMa:
 	movss	xmm0, DWORD PTR [rax+1176]
 	call	?map@@YAMMMMMM@Z			; map
 	movss	DWORD PTR pcty$4[rsp], xmm0
-; Line 430
+; Line 433
 	movss	xmm2, DWORD PTR __real@3f800000
 	xorps	xmm1, xmm1
 	movss	xmm0, DWORD PTR pcty$4[rsp]
 	call	?clamp@@YAMMMM@Z			; clamp
 	movss	DWORD PTR pcty$4[rsp], xmm0
-; Line 431
+; Line 434
 	movss	xmm0, DWORD PTR bmy$2[rsp]
 	subss	xmm0, DWORD PTR ny$12[rsp]
 	xorps	xmm0, DWORD PTR __xmm@80000000800000008000000080000000
@@ -7622,20 +7624,20 @@ $LN4@runImageMa:
 	movss	xmm0, DWORD PTR pcty$4[rsp]
 	call	?map@@YAMMMMMM@Z			; map
 	movss	DWORD PTR pcty$4[rsp], xmm0
-; Line 435
+; Line 438
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601632]
 	addss	xmm0, DWORD PTR pctx$3[rsp]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601632], xmm0
-; Line 436
+; Line 439
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601636]
 	addss	xmm0, DWORD PTR pcty$4[rsp]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601636], xmm0
 $LN5@runImageMa:
-; Line 439
+; Line 442
 	movss	xmm0, DWORD PTR bmh$9[rsp]
 	movss	DWORD PTR [rsp+32], xmm0
 	movss	xmm3, DWORD PTR bmw$10[rsp]
@@ -7647,7 +7649,7 @@ $LN5@runImageMa:
 	movzx	eax, al
 	test	eax, eax
 	je	$LN6@runImageMa
-; Line 440
+; Line 443
 	lea	rax, QWORD PTR $T20[rsp]
 	mov	QWORD PTR $T19[rsp], rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
@@ -7673,7 +7675,7 @@ $LN5@runImageMa:
 	add	rcx, 1090601616				; 41014290H
 	mov	rdx, QWORD PTR [rax]
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
-; Line 441
+; Line 444
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si rax, DWORD PTR [rax+1090601620]
 	mov	eax, eax
@@ -7689,12 +7691,12 @@ $LN5@runImageMa:
 	add	rcx, 1090601616				; 41014290H
 	mov	rdx, QWORD PTR [rax]
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
-; Line 443
+; Line 446
 	mov	rax, QWORD PTR ?gui@@3PEAUGUI@@EA
 	movzx	eax, BYTE PTR [rax+65569]
 	test	eax, eax
 	je	SHORT $LN7@runImageMa
-; Line 444
+; Line 447
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rax, 1090601600				; 41014280H
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
@@ -7703,14 +7705,14 @@ $LN5@runImageMa:
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
 	jmp	SHORT $LN8@runImageMa
 $LN7@runImageMa:
-; Line 445
+; Line 448
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movzx	eax, BYTE PTR [rax+1666]
 	mov	rcx, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movzx	eax, BYTE PTR [rcx+rax+1152]
 	test	eax, eax
 	je	SHORT $LN9@runImageMa
-; Line 446
+; Line 449
 	movss	xmm2, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rdx, QWORD PTR [rax+1090601616]
@@ -7722,7 +7724,7 @@ $LN7@runImageMa:
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
 $LN9@runImageMa:
 $LN8@runImageMa:
-; Line 449
+; Line 452
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601548]
 	cvtsi2ss xmm0, rax
@@ -7745,7 +7747,7 @@ $LN8@runImageMa:
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
 $LN6@runImageMa:
 $LN3@runImageMa:
-; Line 454
+; Line 457
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rax, 1090601536				; 41014240H
 	movss	xmm0, DWORD PTR ih$13[rsp]
@@ -7756,66 +7758,66 @@ $LN3@runImageMa:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1400]
-; Line 456
+; Line 459
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3f50624dd2f1a9fc
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1352]
-; Line 457
+; Line 460
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 458
+; Line 461
 	movss	xmm3, DWORD PTR ih$13[rsp]
 	movss	xmm2, DWORD PTR iw$14[rsp]
 	movss	xmm1, DWORD PTR iy$15[rsp]
 	movss	xmm0, DWORD PTR ix$16[rsp]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1288]
-; Line 460
+; Line 463
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	movss	xmm1, DWORD PTR __real@3f800000
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 462
+; Line 465
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601600]
 	mulss	xmm0, DWORD PTR [rcx+1090601640]
 	movss	DWORD PTR rx$6[rsp], xmm0
-; Line 463
+; Line 466
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601604]
 	mulss	xmm0, DWORD PTR [rcx+1090601640]
 	movss	DWORD PTR ry$5[rsp], xmm0
-; Line 464
+; Line 467
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601608]
 	mulss	xmm0, DWORD PTR [rcx+1090601640]
 	subss	xmm0, DWORD PTR rx$6[rsp]
 	movss	DWORD PTR rw$8[rsp], xmm0
-; Line 465
+; Line 468
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601612]
 	mulss	xmm0, DWORD PTR [rcx+1090601640]
 	subss	xmm0, DWORD PTR ry$5[rsp]
 	movss	DWORD PTR rh$7[rsp], xmm0
-; Line 467
+; Line 470
 	movss	xmm0, DWORD PTR rx$6[rsp]
 	addss	xmm0, DWORD PTR bmx$1[rsp]
 	movss	xmm1, DWORD PTR x$[rsp]
 	comiss	xmm1, xmm0
 	jbe	SHORT $LN10@runImageMa
-; Line 468
+; Line 471
 	movss	xmm0, DWORD PTR rx$6[rsp]
 	addss	xmm0, DWORD PTR bmx$1[rsp]
 	movss	xmm1, DWORD PTR x$[rsp]
@@ -7825,16 +7827,16 @@ $LN3@runImageMa:
 	subss	xmm1, xmm0
 	movaps	xmm0, xmm1
 	movss	DWORD PTR rw$8[rsp], xmm0
-; Line 469
+; Line 472
 	movss	xmm0, DWORD PTR x$[rsp]
 	subss	xmm0, DWORD PTR bmx$1[rsp]
 	movss	DWORD PTR rx$6[rsp], xmm0
 $LN10@runImageMa:
-; Line 471
+; Line 474
 	movss	xmm0, DWORD PTR y$[rsp]
 	comiss	xmm0, DWORD PTR ry$5[rsp]
 	jbe	SHORT $LN11@runImageMa
-; Line 472
+; Line 475
 	movss	xmm0, DWORD PTR ry$5[rsp]
 	addss	xmm0, DWORD PTR bmy$2[rsp]
 	movss	xmm1, DWORD PTR y$[rsp]
@@ -7844,22 +7846,22 @@ $LN10@runImageMa:
 	subss	xmm1, xmm0
 	movaps	xmm0, xmm1
 	movss	DWORD PTR rh$7[rsp], xmm0
-; Line 473
+; Line 476
 	movss	xmm0, DWORD PTR y$[rsp]
 	subss	xmm0, DWORD PTR bmy$2[rsp]
 	movss	DWORD PTR ry$5[rsp], xmm0
 $LN11@runImageMa:
-; Line 476
+; Line 479
 	xorps	xmm1, xmm1
 	movss	xmm0, DWORD PTR rw$8[rsp]
 	call	?max@@YAMMM@Z				; max
 	movss	DWORD PTR rw$8[rsp], xmm0
-; Line 477
+; Line 480
 	xorps	xmm1, xmm1
 	movss	xmm0, DWORD PTR rh$7[rsp]
 	call	?max@@YAMMM@Z				; max
 	movss	DWORD PTR rh$7[rsp], xmm0
-; Line 479
+; Line 482
 	movss	xmm0, DWORD PTR ry$5[rsp]
 	addss	xmm0, DWORD PTR bmy$2[rsp]
 	movss	xmm1, DWORD PTR rx$6[rsp]
@@ -7872,7 +7874,7 @@ $LN11@runImageMa:
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1288]
 $LN2@runImageMa:
-; Line 481
+; Line 484
 	mov	rcx, QWORD PTR __$ArrayPad$[rsp]
 	xor	rcx, rsp
 	call	__security_check_cookie
@@ -7898,7 +7900,7 @@ w$ = 192
 h$ = 200
 ?runAnimationPanel@@YAXMMMM@Z PROC			; runAnimationPanel
 ; File D:\code\sprite_animation_maker\spranimator.cpp
-; Line 350
+; Line 353
 	movss	DWORD PTR [rsp+32], xmm3
 	movss	DWORD PTR [rsp+24], xmm2
 	movss	DWORD PTR [rsp+16], xmm1
@@ -7909,11 +7911,11 @@ h$ = 200
 	mov	rax, QWORD PTR __security_cookie
 	xor	rax, rsp
 	mov	QWORD PTR __$ArrayPad$[rsp], rax
-; Line 351
+; Line 354
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rax, QWORD PTR [rax+16859184]
 	mov	QWORD PTR a$[rsp], rax
-; Line 353
+; Line 356
 	movss	xmm0, DWORD PTR h$[rsp]
 	movss	DWORD PTR [rsp+32], xmm0
 	movss	xmm3, DWORD PTR w$[rsp]
@@ -7925,11 +7927,11 @@ h$ = 200
 	movzx	eax, al
 	test	eax, eax
 	je	SHORT $LN2@runAnimati
-; Line 354
+; Line 357
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cmp	DWORD PTR [rax+1204], 0
 	je	SHORT $LN3@runAnimati
-; Line 355
+; Line 358
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	cvtsi2sd xmm0, DWORD PTR [rax+1204]
 	mulsd	xmm0, QWORD PTR __real@3fb999999999999a
@@ -7940,7 +7942,7 @@ h$ = 200
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601644], xmm0
-; Line 356
+; Line 359
 	movss	xmm1, DWORD PTR __real@3c23d70a
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601644]
@@ -7949,45 +7951,45 @@ h$ = 200
 	movss	DWORD PTR [rax+1090601644], xmm0
 $LN3@runAnimati:
 $LN2@runAnimati:
-; Line 360
+; Line 363
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 361
+; Line 364
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3f847ae147ae147b
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1352]
-; Line 362
+; Line 365
 	movss	xmm3, DWORD PTR h$[rsp]
 	movss	xmm2, DWORD PTR w$[rsp]
 	movss	xmm1, DWORD PTR y$[rsp]
 	movss	xmm0, DWORD PTR x$[rsp]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1288]
-; Line 364
+; Line 367
 	mov	rax, QWORD PTR a$[rsp]
 	cmp	DWORD PTR [rax+16388], 1
 	jae	SHORT $LN4@runAnimati
-; Line 365
+; Line 368
 	jmp	$LN1@runAnimati
 $LN4@runAnimati:
-; Line 369
+; Line 372
 	lea	rax, QWORD PTR b$[rsp]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rdi, rax
 	lea	rsi, QWORD PTR [rcx+1090601552]
 	mov	ecx, 16
 	rep movsb
-; Line 371
+; Line 374
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16384]
 	mov	DWORD PTR i$[rsp], eax
-; Line 372
+; Line 375
 	mov	eax, DWORD PTR i$[rsp]
 	imul	rax, rax, 16
 	mov	rcx, QWORD PTR a$[rsp]
@@ -7998,19 +8000,19 @@ $LN4@runAnimati:
 	lea	rdx, QWORD PTR $T1[rsp]
 	mov	rcx, rax
 	call	??4Vector4@@QEAAXT0@@Z			; Vector4::operator=
-; Line 373
+; Line 376
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601560]
 	mulss	xmm0, DWORD PTR [rcx+1090601644]
 	movss	DWORD PTR iw$[rsp], xmm0
-; Line 374
+; Line 377
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601564]
 	mulss	xmm0, DWORD PTR [rcx+1090601644]
 	movss	DWORD PTR ih$[rsp], xmm0
-; Line 375
+; Line 378
 	cvtss2sd xmm0, DWORD PTR x$[rsp]
 	cvtss2sd xmm1, DWORD PTR w$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -8020,7 +8022,7 @@ $LN4@runAnimati:
 	subsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR ix$[rsp], xmm0
-; Line 376
+; Line 379
 	cvtss2sd xmm0, DWORD PTR y$[rsp]
 	cvtss2sd xmm1, DWORD PTR h$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3fe0000000000000
@@ -8030,7 +8032,7 @@ $LN4@runAnimati:
 	subsd	xmm0, xmm1
 	cvtsd2ss xmm0, xmm0
 	movss	DWORD PTR iy$[rsp], xmm0
-; Line 377
+; Line 380
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rax, 1090601536				; 41014240H
 	movss	xmm0, DWORD PTR ih$[rsp]
@@ -8041,7 +8043,7 @@ $LN4@runAnimati:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1400]
-; Line 378
+; Line 381
 	movaps	xmm0, XMMWORD PTR b$[rsp]
 	movdqa	XMMWORD PTR $T2[rsp], xmm0
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
@@ -8049,25 +8051,25 @@ $LN4@runAnimati:
 	lea	rdx, QWORD PTR $T2[rsp]
 	mov	rcx, rax
 	call	??4Vector4@@QEAAXT0@@Z			; Vector4::operator=
-; Line 380
+; Line 383
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movzx	eax, BYTE PTR [rax+1090601648]
 	test	eax, eax
 	je	$LN5@runAnimati
-; Line 381
+; Line 384
 	mov	rax, QWORD PTR a$[rsp]
 	mov	rcx, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	movss	xmm0, DWORD PTR [rax+16396]
 	addss	xmm0, DWORD PTR [rcx+1208]
 	mov	rax, QWORD PTR a$[rsp]
 	movss	DWORD PTR [rax+16396], xmm0
-; Line 383
+; Line 386
 	mov	rax, QWORD PTR a$[rsp]
 	mov	rcx, QWORD PTR a$[rsp]
 	movss	xmm0, DWORD PTR [rax+16396]
 	comiss	xmm0, DWORD PTR [rcx+16392]
 	jbe	SHORT $LN6@runAnimati
-; Line 384
+; Line 387
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16384]
 	inc	eax
@@ -8077,7 +8079,7 @@ $LN4@runAnimati:
 	mov	eax, edx
 	mov	rcx, QWORD PTR a$[rsp]
 	mov	DWORD PTR [rcx+16384], eax
-; Line 385
+; Line 388
 	mov	rax, QWORD PTR a$[rsp]
 	mov	rcx, QWORD PTR a$[rsp]
 	movss	xmm0, DWORD PTR [rax+16396]
@@ -8087,7 +8089,7 @@ $LN4@runAnimati:
 $LN6@runAnimati:
 $LN5@runAnimati:
 $LN1@runAnimati:
-; Line 389
+; Line 392
 	mov	rcx, QWORD PTR __$ArrayPad$[rsp]
 	xor	rcx, rsp
 	call	__security_check_cookie
@@ -8114,35 +8116,36 @@ sz$11 = 104
 an$12 = 112
 an$13 = 120
 a$14 = 128
-totalPixels$15 = 136
-tv434 = 140
-totalPixels$16 = 144
-tv515 = 148
-tv568 = 152
-tv604 = 156
-tv669 = 160
-tv705 = 164
-tv779 = 168
-tv810 = 172
+tv349 = 136
+totalPixels$15 = 140
+tv434 = 144
+totalPixels$16 = 148
+tv515 = 152
+tv568 = 156
+tv604 = 160
+tv669 = 164
+tv705 = 168
+tv779 = 172
 tv870 = 176
 tv893 = 180
 tv945 = 184
-tv993 = 188
-tv1026 = 192
-tv1093 = 196
-tv1125 = 200
-tv1160 = 204
-tv1192 = 208
-tv1227 = 212
-tv1261 = 216
-tv1296 = 220
-tv1330 = 224
-tv83 = 228
-sz$17 = 232
-tv213 = 236
-tv235 = 240
-tv324 = 244
-tv349 = 248
+tv990 = 188
+tv1033 = 192
+tv1066 = 196
+tv1133 = 200
+tv810 = 204
+tv1200 = 208
+tv1232 = 212
+tv1267 = 216
+tv1301 = 220
+tv1336 = 224
+tv1370 = 228
+tv83 = 232
+tv1165 = 236
+sz$17 = 240
+tv213 = 244
+tv235 = 248
+tv324 = 252
 dataStart$18 = 256
 pix$19 = 264
 pix$20 = 272
@@ -8151,7 +8154,8 @@ tv369 = 288
 tv452 = 296
 tv454 = 304
 tv532 = 312
-tv1376 = 320
+tv1003 = 320
+tv1416 = 328
 $T21 = 336
 $T22 = 352
 $T23 = 368
@@ -8160,11 +8164,12 @@ $T25 = 400
 $T26 = 416
 $T27 = 432
 $T28 = 448
-__$ArrayPad$ = 464
-x$ = 496
-y$ = 504
-w$ = 512
-h$ = 520
+$T29 = 464
+__$ArrayPad$ = 480
+x$ = 512
+y$ = 520
+w$ = 528
+h$ = 536
 ?runControllPanel@@YAXMMMM@Z PROC			; runControllPanel
 ; File D:\code\sprite_animation_maker\spranimator.cpp
 ; Line 58
@@ -8172,7 +8177,7 @@ h$ = 520
 	movss	DWORD PTR [rsp+24], xmm2
 	movss	DWORD PTR [rsp+16], xmm1
 	movss	DWORD PTR [rsp+8], xmm0
-	sub	rsp, 488				; 000001e8H
+	sub	rsp, 504				; 000001f8H
 	mov	rax, QWORD PTR __security_cookie
 	xor	rax, rsp
 	mov	QWORD PTR __$ArrayPad$[rsp], rax
@@ -8198,7 +8203,7 @@ h$ = 520
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv83[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG31980
+	lea	rcx, OFFSET FLAT:$SG31981
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8415,7 +8420,7 @@ $LN26@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv235[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG31985
+	lea	rcx, OFFSET FLAT:$SG31986
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8425,9 +8430,9 @@ $LN26@runControl:
 	add	rax, 16859200				; 01014040H
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 16859712				; 01014240H
-	lea	r9, OFFSET FLAT:$SG31986
+	lea	r9, OFFSET FLAT:$SG31987
 	mov	r8, rax
-	lea	rdx, OFFSET FLAT:$SG31987
+	lea	rdx, OFFSET FLAT:$SG31988
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
 ; Line 96
@@ -8589,7 +8594,7 @@ $LN30@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv324[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG31989
+	lea	rcx, OFFSET FLAT:$SG31990
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8623,7 +8628,7 @@ $LN29@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv349[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG31991
+	lea	rcx, OFFSET FLAT:$SG31992
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8763,7 +8768,7 @@ $LN32@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv434[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG31998
+	lea	rcx, OFFSET FLAT:$SG31999
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8894,7 +8899,7 @@ $LN38@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv515[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32004
+	lea	rcx, OFFSET FLAT:$SG32005
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -8929,7 +8934,7 @@ $LN38@runControl:
 	movss	xmm2, DWORD PTR [rax+1090601604]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm1, DWORD PTR [rax+1090601600]
-	lea	rcx, QWORD PTR $T27[rsp]
+	lea	rcx, QWORD PTR $T28[rsp]
 	call	??0Vector4@@QEAA@MMMM@Z			; Vector4::Vector4
 	movups	xmm0, XMMWORD PTR [rax]
 	movdqa	XMMWORD PTR $T23[rsp], xmm0
@@ -8960,7 +8965,7 @@ $LN43@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv568[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32007
+	lea	rcx, OFFSET FLAT:$SG32008
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9007,7 +9012,7 @@ $LN45@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv604[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32009
+	lea	rcx, OFFSET FLAT:$SG32010
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9100,7 +9105,7 @@ $LN46@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv669[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32012
+	lea	rcx, OFFSET FLAT:$SG32013
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9147,7 +9152,7 @@ $LN48@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv705[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32015
+	lea	rcx, OFFSET FLAT:$SG32016
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9201,7 +9206,7 @@ $LN50@runControl:
 	mov	rdx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	r9d, DWORD PTR [rdx+16859196]
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32018
+	lea	rdx, OFFSET FLAT:$SG32019
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
 ; Line 218
@@ -9243,7 +9248,7 @@ $LN50@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv779[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32020
+	lea	rcx, OFFSET FLAT:$SG32021
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9320,7 +9325,7 @@ $LN37@runControl:
 	addsd	xmm1, xmm2
 	cvtsd2ss xmm1, xmm1
 	movaps	xmm2, xmm0
-	lea	rcx, OFFSET FLAT:$SG32022
+	lea	rcx, OFFSET FLAT:$SG32023
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
 ; Line 235
@@ -9335,7 +9340,7 @@ $LN37@runControl:
 	addsd	xmm1, xmm2
 	cvtsd2ss xmm1, xmm1
 	movaps	xmm2, xmm0
-	lea	rcx, OFFSET FLAT:$SG32023
+	lea	rcx, OFFSET FLAT:$SG32024
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
 ; Line 237
@@ -9387,7 +9392,7 @@ $LN37@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv893[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32025
+	lea	rcx, OFFSET FLAT:$SG32026
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9471,7 +9476,7 @@ $LN55@runControl:
 	movaps	xmm3, xmm1
 	movss	xmm0, DWORD PTR tv945[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32029
+	lea	rcx, OFFSET FLAT:$SG32030
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
@@ -9486,7 +9491,7 @@ $LN55@runControl:
 	movss	xmm2, DWORD PTR [rax+1090601604]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm1, DWORD PTR [rax+1090601600]
-	lea	rcx, QWORD PTR $T28[rsp]
+	lea	rcx, QWORD PTR $T29[rsp]
 	call	??0Vector4@@QEAA@MMMM@Z			; Vector4::Vector4
 	movups	xmm0, XMMWORD PTR [rax]
 	movdqa	XMMWORD PTR $T25[rsp], xmm0
@@ -9500,12 +9505,62 @@ $LN55@runControl:
 	mov	rcx, rax
 	call	??4Vector4@@QEAAXT0@@Z			; Vector4::operator=
 $LN58@runControl:
+; Line 255
+	cvtss2sd xmm0, DWORD PTR h$[rsp]
+	mulsd	xmm0, QWORD PTR __real@3fb47ae147ae147b
+	cvtsd2ss xmm0, xmm0
+	cvtss2sd xmm1, DWORD PTR w$[rsp]
+	mulsd	xmm1, QWORD PTR __real@3fb999999999999a
+	cvtsd2ss xmm1, xmm1
+	cvtss2sd xmm2, DWORD PTR y$[rsp]
+	cvtss2sd xmm3, DWORD PTR h$[rsp]
+	mulsd	xmm3, QWORD PTR __real@3fe999999999999a
+	addsd	xmm2, xmm3
+	cvtsd2ss xmm2, xmm2
+	cvtss2sd xmm3, DWORD PTR x$[rsp]
+	cvtss2sd xmm4, DWORD PTR w$[rsp]
+	mulsd	xmm4, QWORD PTR __real@3fd999999999999a
+	addsd	xmm3, xmm4
+	cvtsd2ss xmm3, xmm3
+	movss	DWORD PTR tv990[rsp], xmm3
+	movss	DWORD PTR [rsp+32], xmm0
+	movaps	xmm3, xmm1
+	movss	xmm0, DWORD PTR tv990[rsp]
+	movaps	xmm1, xmm0
+	lea	rcx, OFFSET FLAT:$SG32032
+	call	?button@@YA_NPEADMMMM@Z			; button
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN59@runControl
 ; Line 256
+	mov	rax, QWORD PTR a$[rsp]
+	mov	eax, DWORD PTR [rax+16388]
+	imul	rax, rax, 16
+	mov	rcx, QWORD PTR a$[rsp]
+	add	rcx, rax
+	mov	rax, rcx
+	mov	QWORD PTR tv1003[rsp], rax
+	mov	rax, QWORD PTR a$[rsp]
+	mov	eax, DWORD PTR [rax+16388]
+	inc	eax
+	mov	rcx, QWORD PTR a$[rsp]
+	mov	DWORD PTR [rcx+16388], eax
+	mov	rax, QWORD PTR a$[rsp]
+	mov	eax, DWORD PTR [rax+16384]
+	imul	rax, rax, 16
+	mov	rcx, QWORD PTR a$[rsp]
+	movups	xmm0, XMMWORD PTR [rcx+rax]
+	movdqa	XMMWORD PTR $T26[rsp], xmm0
+	lea	rdx, QWORD PTR $T26[rsp]
+	mov	rcx, QWORD PTR tv1003[rsp]
+	call	??4Vector4@@QEAAXT0@@Z			; Vector4::operator=
+$LN59@runControl:
+; Line 259
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movzx	eax, BYTE PTR [rax+1090601648]
 	test	eax, eax
-	jne	$LN59@runControl
-; Line 257
+	jne	$LN60@runControl
+; Line 260
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fb47ae147ae147b
 	cvtsd2ss xmm0, xmm0
@@ -9522,38 +9577,38 @@ $LN58@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fc999999999999a
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv993[rsp], xmm3
+	movss	DWORD PTR tv1033[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv993[rsp]
+	movss	xmm0, DWORD PTR tv1033[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32032
+	lea	rcx, OFFSET FLAT:$SG32035
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN60@runControl
-; Line 258
+	je	SHORT $LN61@runControl
+; Line 261
 	mov	rax, QWORD PTR a$[rsp]
 	cmp	DWORD PTR [rax+16384], 0
-	jbe	SHORT $LN61@runControl
-; Line 259
+	jbe	SHORT $LN62@runControl
+; Line 262
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16384]
 	dec	eax
 	mov	rcx, QWORD PTR a$[rsp]
 	mov	DWORD PTR [rcx+16384], eax
-; Line 260
-	jmp	SHORT $LN62@runControl
-$LN61@runControl:
-; Line 261
+; Line 263
+	jmp	SHORT $LN63@runControl
+$LN62@runControl:
+; Line 264
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16388]
 	dec	eax
 	mov	rcx, QWORD PTR a$[rsp]
 	mov	DWORD PTR [rcx+16384], eax
-$LN62@runControl:
-$LN60@runControl:
-; Line 265
+$LN63@runControl:
+$LN61@runControl:
+; Line 268
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fb47ae147ae147b
 	cvtsd2ss xmm0, xmm0
@@ -9570,51 +9625,51 @@ $LN60@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1026[rsp], xmm3
+	movss	DWORD PTR tv1066[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1026[rsp]
+	movss	xmm0, DWORD PTR tv1066[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32036
+	lea	rcx, OFFSET FLAT:$SG32039
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN63@runControl
-; Line 266
+	je	SHORT $LN64@runControl
+; Line 269
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16388]
 	dec	eax
 	mov	rcx, QWORD PTR a$[rsp]
 	cmp	DWORD PTR [rcx+16384], eax
-	jae	SHORT $LN64@runControl
-; Line 267
+	jae	SHORT $LN65@runControl
+; Line 270
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16384]
 	inc	eax
 	mov	rcx, QWORD PTR a$[rsp]
 	mov	DWORD PTR [rcx+16384], eax
-; Line 268
-	jmp	SHORT $LN65@runControl
-$LN64@runControl:
-; Line 269
+; Line 271
+	jmp	SHORT $LN66@runControl
+$LN65@runControl:
+; Line 272
 	mov	rax, QWORD PTR a$[rsp]
 	mov	DWORD PTR [rax+16384], 0
-$LN65@runControl:
-$LN63@runControl:
-; Line 275
+$LN66@runControl:
+$LN64@runControl:
+; Line 278
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 276
+; Line 279
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1360]
-; Line 277
+; Line 280
 	mov	rax, QWORD PTR a$[rsp]
 	mov	eax, DWORD PTR [rax+16384]
 	inc	eax
@@ -9623,10 +9678,10 @@ $LN63@runControl:
 	mov	rdx, QWORD PTR a$[rsp]
 	mov	r9d, DWORD PTR [rdx+16388]
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32039
+	lea	rdx, OFFSET FLAT:$SG32042
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 278
+; Line 281
 	cvtss2sd xmm0, DWORD PTR y$[rsp]
 	cvtss2sd xmm1, DWORD PTR h$[rsp]
 	mulsd	xmm1, QWORD PTR __real@3feccccccccccccd
@@ -9643,9 +9698,9 @@ $LN63@runControl:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
-$LN59@runControl:
+$LN60@runControl:
 $LN54@runControl:
-; Line 283
+; Line 286
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9662,72 +9717,30 @@ $LN54@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1093[rsp], xmm3
+	movss	DWORD PTR tv1133[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1093[rsp]
-	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32041
-	call	?button@@YA_NPEADMMMM@Z			; button
-	movzx	eax, al
-	test	eax, eax
-	je	SHORT $LN66@runControl
-; Line 284
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	movss	xmm0, DWORD PTR [rax+1090601600]
-	comiss	xmm0, DWORD PTR __real@00000000
-	jbe	SHORT $LN67@runControl
-; Line 285
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	movss	xmm0, DWORD PTR [rax+1090601600]
-	subss	xmm0, DWORD PTR __real@3f800000
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	movss	DWORD PTR [rax+1090601600], xmm0
-$LN67@runControl:
-$LN66@runControl:
-; Line 289
-	cvtss2sd xmm0, DWORD PTR h$[rsp]
-	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
-	cvtsd2ss xmm0, xmm0
-	cvtss2sd xmm1, DWORD PTR w$[rsp]
-	mulsd	xmm1, QWORD PTR __real@3f9eb851eb851eb8
-	cvtsd2ss xmm1, xmm1
-	cvtss2sd xmm2, DWORD PTR y$[rsp]
-	cvtss2sd xmm3, DWORD PTR h$[rsp]
-	mulsd	xmm3, QWORD PTR __real@3fb999999999999a
-	addsd	xmm2, xmm3
-	cvtsd2ss xmm2, xmm2
-	cvtss2sd xmm3, DWORD PTR x$[rsp]
-	cvtss2sd xmm4, DWORD PTR w$[rsp]
-	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
-	addsd	xmm3, xmm4
-	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1125[rsp], xmm3
-	movss	DWORD PTR [rsp+32], xmm0
-	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1125[rsp]
+	movss	xmm0, DWORD PTR tv1133[rsp]
 	movaps	xmm1, xmm0
 	lea	rcx, OFFSET FLAT:$SG32044
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN68@runControl
-; Line 290
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	mov	eax, DWORD PTR [rax+1090601544]
-	cvtsi2ss xmm0, rax
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	comiss	xmm0, DWORD PTR [rax+1090601600]
-	jbe	SHORT $LN69@runControl
-; Line 291
+	je	SHORT $LN67@runControl
+; Line 287
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601600]
-	addss	xmm0, DWORD PTR __real@3f800000
+	comiss	xmm0, DWORD PTR __real@00000000
+	jbe	SHORT $LN68@runControl
+; Line 288
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	movss	xmm0, DWORD PTR [rax+1090601600]
+	subss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601600], xmm0
-$LN69@runControl:
 $LN68@runControl:
-; Line 295
+$LN67@runControl:
+; Line 292
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9736,38 +9749,80 @@ $LN68@runControl:
 	cvtsd2ss xmm1, xmm1
 	cvtss2sd xmm2, DWORD PTR y$[rsp]
 	cvtss2sd xmm3, DWORD PTR h$[rsp]
-	mulsd	xmm3, QWORD PTR __real@3fc999999999999a
+	mulsd	xmm3, QWORD PTR __real@3fb999999999999a
 	addsd	xmm2, xmm3
 	cvtsd2ss xmm2, xmm2
 	cvtss2sd xmm3, DWORD PTR x$[rsp]
 	cvtss2sd xmm4, DWORD PTR w$[rsp]
-	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
+	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1160[rsp], xmm3
+	movss	DWORD PTR tv1165[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1160[rsp]
+	movss	xmm0, DWORD PTR tv1165[rsp]
 	movaps	xmm1, xmm0
 	lea	rcx, OFFSET FLAT:$SG32047
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN70@runControl
-; Line 296
+	je	SHORT $LN69@runControl
+; Line 293
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	mov	eax, DWORD PTR [rax+1090601544]
+	cvtsi2ss xmm0, rax
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	comiss	xmm0, DWORD PTR [rax+1090601600]
+	jbe	SHORT $LN70@runControl
+; Line 294
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	movss	xmm0, DWORD PTR [rax+1090601600]
+	addss	xmm0, DWORD PTR __real@3f800000
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	movss	DWORD PTR [rax+1090601600], xmm0
+$LN70@runControl:
+$LN69@runControl:
+; Line 298
+	cvtss2sd xmm0, DWORD PTR h$[rsp]
+	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
+	cvtsd2ss xmm0, xmm0
+	cvtss2sd xmm1, DWORD PTR w$[rsp]
+	mulsd	xmm1, QWORD PTR __real@3f9eb851eb851eb8
+	cvtsd2ss xmm1, xmm1
+	cvtss2sd xmm2, DWORD PTR y$[rsp]
+	cvtss2sd xmm3, DWORD PTR h$[rsp]
+	mulsd	xmm3, QWORD PTR __real@3fc999999999999a
+	addsd	xmm2, xmm3
+	cvtsd2ss xmm2, xmm2
+	cvtss2sd xmm3, DWORD PTR x$[rsp]
+	cvtss2sd xmm4, DWORD PTR w$[rsp]
+	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
+	addsd	xmm3, xmm4
+	cvtsd2ss xmm3, xmm3
+	movss	DWORD PTR tv1200[rsp], xmm3
+	movss	DWORD PTR [rsp+32], xmm0
+	movaps	xmm3, xmm1
+	movss	xmm0, DWORD PTR tv1200[rsp]
+	movaps	xmm1, xmm0
+	lea	rcx, OFFSET FLAT:$SG32050
+	call	?button@@YA_NPEADMMMM@Z			; button
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN71@runControl
+; Line 299
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601604]
 	comiss	xmm0, DWORD PTR __real@00000000
-	jbe	SHORT $LN71@runControl
-; Line 297
+	jbe	SHORT $LN72@runControl
+; Line 300
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601604]
 	subss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601604], xmm0
+$LN72@runControl:
 $LN71@runControl:
-$LN70@runControl:
-; Line 301
+; Line 304
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9784,73 +9839,73 @@ $LN70@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1192[rsp], xmm3
+	movss	DWORD PTR tv1232[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1192[rsp]
-	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32050
-	call	?button@@YA_NPEADMMMM@Z			; button
-	movzx	eax, al
-	test	eax, eax
-	je	SHORT $LN72@runControl
-; Line 302
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	mov	eax, DWORD PTR [rax+1090601548]
-	cvtsi2ss xmm0, rax
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	comiss	xmm0, DWORD PTR [rax+1090601604]
-	jbe	SHORT $LN73@runControl
-; Line 303
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	movss	xmm0, DWORD PTR [rax+1090601604]
-	addss	xmm0, DWORD PTR __real@3f800000
-	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
-	movss	DWORD PTR [rax+1090601604], xmm0
-$LN73@runControl:
-$LN72@runControl:
-; Line 307
-	cvtss2sd xmm0, DWORD PTR h$[rsp]
-	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
-	cvtsd2ss xmm0, xmm0
-	cvtss2sd xmm1, DWORD PTR w$[rsp]
-	mulsd	xmm1, QWORD PTR __real@3f9eb851eb851eb8
-	cvtsd2ss xmm1, xmm1
-	cvtss2sd xmm2, DWORD PTR y$[rsp]
-	cvtss2sd xmm3, DWORD PTR h$[rsp]
-	mulsd	xmm3, QWORD PTR __real@3fd3333333333333
-	addsd	xmm2, xmm3
-	cvtsd2ss xmm2, xmm2
-	cvtss2sd xmm3, DWORD PTR x$[rsp]
-	cvtss2sd xmm4, DWORD PTR w$[rsp]
-	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
-	addsd	xmm3, xmm4
-	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1227[rsp], xmm3
-	movss	DWORD PTR [rsp+32], xmm0
-	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1227[rsp]
+	movss	xmm0, DWORD PTR tv1232[rsp]
 	movaps	xmm1, xmm0
 	lea	rcx, OFFSET FLAT:$SG32053
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN74@runControl
-; Line 308
+	je	SHORT $LN73@runControl
+; Line 305
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	mov	eax, DWORD PTR [rax+1090601548]
+	cvtsi2ss xmm0, rax
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	comiss	xmm0, DWORD PTR [rax+1090601604]
+	jbe	SHORT $LN74@runControl
+; Line 306
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	movss	xmm0, DWORD PTR [rax+1090601604]
+	addss	xmm0, DWORD PTR __real@3f800000
+	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
+	movss	DWORD PTR [rax+1090601604], xmm0
+$LN74@runControl:
+$LN73@runControl:
+; Line 310
+	cvtss2sd xmm0, DWORD PTR h$[rsp]
+	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
+	cvtsd2ss xmm0, xmm0
+	cvtss2sd xmm1, DWORD PTR w$[rsp]
+	mulsd	xmm1, QWORD PTR __real@3f9eb851eb851eb8
+	cvtsd2ss xmm1, xmm1
+	cvtss2sd xmm2, DWORD PTR y$[rsp]
+	cvtss2sd xmm3, DWORD PTR h$[rsp]
+	mulsd	xmm3, QWORD PTR __real@3fd3333333333333
+	addsd	xmm2, xmm3
+	cvtsd2ss xmm2, xmm2
+	cvtss2sd xmm3, DWORD PTR x$[rsp]
+	cvtss2sd xmm4, DWORD PTR w$[rsp]
+	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
+	addsd	xmm3, xmm4
+	cvtsd2ss xmm3, xmm3
+	movss	DWORD PTR tv1267[rsp], xmm3
+	movss	DWORD PTR [rsp+32], xmm0
+	movaps	xmm3, xmm1
+	movss	xmm0, DWORD PTR tv1267[rsp]
+	movaps	xmm1, xmm0
+	lea	rcx, OFFSET FLAT:$SG32056
+	call	?button@@YA_NPEADMMMM@Z			; button
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN75@runControl
+; Line 311
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601608]
 	comiss	xmm0, DWORD PTR [rcx+1090601600]
-	jbe	SHORT $LN75@runControl
-; Line 309
+	jbe	SHORT $LN76@runControl
+; Line 312
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601608]
 	subss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601608], xmm0
+$LN76@runControl:
 $LN75@runControl:
-$LN74@runControl:
-; Line 313
+; Line 316
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9867,32 +9922,32 @@ $LN74@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1261[rsp], xmm3
+	movss	DWORD PTR tv1301[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1261[rsp]
+	movss	xmm0, DWORD PTR tv1301[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32056
+	lea	rcx, OFFSET FLAT:$SG32059
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN76@runControl
-; Line 314
+	je	SHORT $LN77@runControl
+; Line 317
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601544]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	comiss	xmm0, DWORD PTR [rax+1090601608]
-	jbe	SHORT $LN77@runControl
-; Line 315
+	jbe	SHORT $LN78@runControl
+; Line 318
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601608]
 	addss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601608], xmm0
+$LN78@runControl:
 $LN77@runControl:
-$LN76@runControl:
-; Line 319
+; Line 322
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9909,31 +9964,31 @@ $LN76@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fb999999999999a
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1296[rsp], xmm3
+	movss	DWORD PTR tv1336[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1296[rsp]
+	movss	xmm0, DWORD PTR tv1336[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32059
+	lea	rcx, OFFSET FLAT:$SG32062
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN78@runControl
-; Line 320
+	je	SHORT $LN79@runControl
+; Line 323
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601612]
 	comiss	xmm0, DWORD PTR [rcx+1090601604]
-	jbe	SHORT $LN79@runControl
-; Line 321
+	jbe	SHORT $LN80@runControl
+; Line 324
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601612]
 	subss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601612], xmm0
+$LN80@runControl:
 $LN79@runControl:
-$LN78@runControl:
-; Line 325
+; Line 328
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -9950,73 +10005,73 @@ $LN78@runControl:
 	mulsd	xmm4, QWORD PTR __real@3fd3333333333333
 	addsd	xmm3, xmm4
 	cvtsd2ss xmm3, xmm3
-	movss	DWORD PTR tv1330[rsp], xmm3
+	movss	DWORD PTR tv1370[rsp], xmm3
 	movss	DWORD PTR [rsp+32], xmm0
 	movaps	xmm3, xmm1
-	movss	xmm0, DWORD PTR tv1330[rsp]
+	movss	xmm0, DWORD PTR tv1370[rsp]
 	movaps	xmm1, xmm0
-	lea	rcx, OFFSET FLAT:$SG32062
+	lea	rcx, OFFSET FLAT:$SG32065
 	call	?button@@YA_NPEADMMMM@Z			; button
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN80@runControl
-; Line 326
+	je	SHORT $LN81@runControl
+; Line 329
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	eax, DWORD PTR [rax+1090601548]
 	cvtsi2ss xmm0, rax
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	comiss	xmm0, DWORD PTR [rax+1090601612]
-	jbe	SHORT $LN81@runControl
-; Line 327
+	jbe	SHORT $LN82@runControl
+; Line 330
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	xmm0, DWORD PTR [rax+1090601612]
 	addss	xmm0, DWORD PTR __real@3f800000
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	movss	DWORD PTR [rax+1090601612], xmm0
+$LN82@runControl:
 $LN81@runControl:
-$LN80@runControl:
-; Line 332
+; Line 335
 	movss	xmm3, DWORD PTR __real@3f800000
 	xorps	xmm2, xmm2
 	xorps	xmm1, xmm1
 	xorps	xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1272]
-; Line 333
+; Line 336
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3f847ae147ae147b
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1352]
-; Line 334
+; Line 337
 	movss	xmm3, DWORD PTR h$[rsp]
 	movss	xmm2, DWORD PTR w$[rsp]
 	movss	xmm1, DWORD PTR y$[rsp]
 	movss	xmm0, DWORD PTR x$[rsp]
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1288]
-; Line 336
+; Line 339
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1360]
-; Line 337
+; Line 340
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si eax, DWORD PTR [rax+1090601620]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si ecx, DWORD PTR [rcx+1090601616]
 	mov	rdx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rdx, 16859200				; 01014040H
-	mov	QWORD PTR tv1376[rsp], rdx
+	mov	QWORD PTR tv1416[rsp], rdx
 	mov	r9d, eax
 	mov	r8d, ecx
-	lea	rdx, OFFSET FLAT:$SG32064
-	mov	rax, QWORD PTR tv1376[rsp]
+	lea	rdx, OFFSET FLAT:$SG32067
+	mov	rax, QWORD PTR tv1416[rsp]
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 338
+; Line 341
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fa999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -10029,27 +10084,27 @@ $LN80@runControl:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
-; Line 339
+; Line 342
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	r8, QWORD PTR [rax+1090601600]
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	mov	rdx, QWORD PTR [rax+1090601608]
-	lea	rcx, QWORD PTR $T26[rsp]
+	lea	rcx, QWORD PTR $T27[rsp]
 	call	??G@YA?ATVector2@@T0@0@Z		; operator-
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 1090601624				; 41014298H
 	mov	rdx, QWORD PTR [rax]
 	call	??4Vector2@@QEAAXT0@@Z			; Vector2::operator=
-; Line 340
+; Line 343
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si eax, DWORD PTR [rax+1090601600]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 16859200				; 01014040H
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32065
+	lea	rdx, OFFSET FLAT:$SG32068
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 341
+; Line 344
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fb999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -10062,16 +10117,16 @@ $LN80@runControl:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
-; Line 342
+; Line 345
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si eax, DWORD PTR [rax+1090601604]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 16859200				; 01014040H
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32066
+	lea	rdx, OFFSET FLAT:$SG32069
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 343
+; Line 346
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fc999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -10084,16 +10139,16 @@ $LN80@runControl:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
-; Line 344
+; Line 347
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si eax, DWORD PTR [rax+1090601624]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 16859200				; 01014040H
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32067
+	lea	rdx, OFFSET FLAT:$SG32070
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 345
+; Line 348
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fd3333333333333
 	cvtsd2ss xmm0, xmm0
@@ -10106,16 +10161,16 @@ $LN80@runControl:
 	mov	rcx, rax
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
-; Line 346
+; Line 349
 	mov	rax, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	cvttss2si eax, DWORD PTR [rax+1090601628]
 	mov	rcx, QWORD PTR ?s@@3PEAUSpranimator@@EA
 	add	rcx, 16859200				; 01014040H
 	mov	r8d, eax
-	lea	rdx, OFFSET FLAT:$SG32068
+	lea	rdx, OFFSET FLAT:$SG32071
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1368]
-; Line 347
+; Line 350
 	cvtss2sd xmm0, DWORD PTR h$[rsp]
 	mulsd	xmm0, QWORD PTR __real@3fd999999999999a
 	cvtsd2ss xmm0, xmm0
@@ -10129,11 +10184,11 @@ $LN80@runControl:
 	mov	rax, QWORD PTR ?os@@3PEAUOSInterface@@EA
 	call	QWORD PTR [rax+1328]
 $LN1@runControl:
-; Line 348
+; Line 351
 	mov	rcx, QWORD PTR __$ArrayPad$[rsp]
 	xor	rcx, rsp
 	call	__security_check_cookie
-	add	rsp, 488				; 000001e8H
+	add	rsp, 504				; 000001f8H
 	ret	0
 ?runControllPanel@@YAXMMMM@Z ENDP			; runControllPanel
 _TEXT	ENDS
